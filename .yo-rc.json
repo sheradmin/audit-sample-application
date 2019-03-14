@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "TestAudit",
+    "packageName": "io.github.audit.application",
+    "packageFolder": "io/github/audit/application",
+    "serverPort": 8082,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "react",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.2",
+    "jwtSecretKey": "NDZlODZjNjNjOTAyNmQxNGQ4OTY1MTA0ZDU5ZDVmMGM1MTZjNmYzNmQwODhkMWVkMjJjNjUxMzhmMDY1MDZhMzkxMTBkMDc5YTM4NWI1NDhlMmU3ZGJhYTM4M2Q2N2Q2ZjI1MTIyOGE3NTUyMWE5MzA4ZWNhNDAwMGZkM2RjODA=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "sheradmin",
+  "repository-name": "audit-sample-application"
+}
